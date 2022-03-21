@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Aweton.Labs.CbrHttpClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Maxim Volkov</Authors>
+    <Company>Proximatics Ltd</Company>
+    <Title>Interfaces to load currency rates</Title>
+    <PackageDescription>Contains the set of i-faces used by proxymatics to load currcny rates</PackageDescription>
+    <Description>
+      This library suports internal processies in the tenant apps
+    </Description>
+    <Copyright>(C) Maxim Volkov 2022</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Mx-Wolf/Aweton.Labs.CbrHttpClient.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aweton.Labs.Cbr.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
