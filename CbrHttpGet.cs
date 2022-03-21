@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Aweton.Labs.Cbr.Abstractions;
 
 namespace Aweton.Labs.CbrHttpClient;
 public class CbrHttpGet : ICbrHttpGet

@@ -7,7 +7,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>Aweton.Labs.CbrHttpClient</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <Authors>Maxim Volkov</Authors>
     <Company>Proximatics Ltd</Company>
     <Title>Interfaces to load currency rates</Title>
@@ -21,7 +21,7 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aweton.Labs.Cbr.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Aweton.Labs.Cbr.Abstractions" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
